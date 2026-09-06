@@ -113,10 +113,10 @@ CTEs, Window Functions, Aggregate Functions, Power BI, DAX, Data Modeling, Data 
 Business Intelligence, HR Analytics, Exploratory Data Analysis, Business Insights,
 Dashboard Design, KPI Reporting
 
-## Dashboard Preview
-![Executive Overview](screenshots/executive_overview.png)
-![Insights](screenshots/insights.png)
-![Recommendations](screenshots/recommendations.png)
+   ## Dashboard Preview
+   ![Executive Overview](Executive_Overview.png)
+   ![Insights](Attrition_Insights.png)
+   ![Recommendations](Recommendations.png)
 
 ## Conclusion
 This project demonstrates a complete data analytics workflow — from raw, unstructured HR
