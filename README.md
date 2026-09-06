@@ -126,8 +126,7 @@ HR stakeholder could realistically act on.
 
 ## Author
 
-**Bapurao Patil**
-Data Analyst 
-
-📧 bapuraopatil.official@gmail.com
+**Bapurao Patil**<br>
+Data Analyst | SQL · Python · Power BI<br>
+📧 bapuraopatil.official@gmail.com<br>
 🔗 [LinkedIn](https://www.linkedin.com/in/bapuraopatil)
