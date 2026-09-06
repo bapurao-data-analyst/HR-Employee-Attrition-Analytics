@@ -125,8 +125,9 @@ alongside the business judgment to translate analytical findings into recommenda
 HR stakeholder could realistically act on.
 
 ## Author
+
 **Bapurao Patil**
 Data Analyst 
-Email: bapuraopatil.official@gmail.com
-[LinkedIn: linkedin.com/in/bapuraopatil] | 
-[GitHub: github.com/bapurao-data-analyst]
+
+📧 bapuraopatil.official@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/bapuraopatil)
