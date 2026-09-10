@@ -2,140 +2,160 @@
 
 ## 📌 Business Problem
 
-Employee attrition is a major challenge for organizations because high employee turnover can increase recruitment costs, reduce productivity, and affect team performance.
+Employee attrition is a major challenge for organizations because high employee turnover can increase recruitment costs, reduce productivity, and affect workforce stability.
 
-The objective of this analysis was to understand **why employees are leaving the organization and which employee groups, departments, and job roles have higher attrition risk.**
+The objective of this SQL analysis is to understand employee attrition patterns and identify departments, job roles, and employee characteristics associated with higher turnover.
 
 ---
 
 ## 🎯 Problem Statement
 
-The HR team needs data-driven insights to identify:
-
-- Departments with higher employee attrition
-- Job roles with higher attrition rates
-- Employee demographic groups at higher risk
-- The impact of overtime and job satisfaction on attrition
-- Differences between employees who stayed and those who left
-- Key factors associated with employee turnover
-
-The analysis was performed to help HR teams identify potential risk areas and support better employee retention strategies.
+Analyze HR employee data using SQL to measure employee attrition, identify high-risk employee groups, compare attrition across departments and job roles, and generate business insights that can support employee retention strategies.
 
 ---
 
-## 🔍 What We Solved
+## 🔍 What Was Solved
 
-Using SQL analysis, we transformed the raw HR employee data into meaningful business insights.
+The SQL analysis was used to:
 
-The analysis focused on:
-
-- Overall employee attrition
-- Department-wise attrition
-- Job role-wise attrition
-- Age-group patterns
-- Gender and marital status
-- Overtime and job satisfaction
-- Business travel
-- Monthly income
-- Years at company
-- High-risk employee groups
-- Ranking departments and job roles based on attrition
-
-Advanced SQL techniques were also used to compare and rank employee groups and departments.
+- Measure total employee count
+- Calculate total employee attrition
+- Calculate overall attrition rate
+- Compare attrition across departments
+- Analyze attrition by job role
+- Analyze age-group attrition
+- Analyze gender-based attrition
+- Analyze job satisfaction and attrition
+- Analyze overtime and attrition
+- Analyze business travel and attrition
+- Compare employee characteristics between employees who stayed and employees who left
+- Identify high-risk employee segments
+- Rank departments and job roles based on attrition
+- Generate business insights for employee retention
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **MySQL** – Data analysis and business queries
-- **SQL** – Data aggregation, filtering, comparison and ranking
-- **CTEs** – Structured and reusable analysis
-- **Window Functions** – Ranking departments and job roles
-- **Python** – Data cleaning and preprocessing
-- **Power BI** – Interactive dashboard and visualization
-- **DAX** – Business metrics and calculations
-- **Power Query** – Data transformation
+- **MySQL**
+- SQL
+- CTEs
+- Window Functions
+- Aggregate Functions
+- CASE Statements
+- GROUP BY
+- HAVING
+- Subqueries
+- Joins
+- Ranking Functions
 
 ---
 
-## 📊 Dataset
+## 📊 Analysis Approach
 
-- **Dataset:** HR Employee Attrition
-- **Total Employees:** 1,470
-- **Employees Who Left:** 237
-- **Overall Attrition Rate:** 16.12%
-- **Source:** Kaggle
+### 1. Basic Analysis
+
+Calculated overall workforce metrics such as:
+
+- Total employees
+- Total employees who left
+- Overall attrition rate
+- Department workforce distribution
+- Job-role workforce distribution
+
+### 2. Intermediate Analysis
+
+Analyzed employee attrition across important workforce dimensions:
+
+- Department
+- Job Role
+- Age Group
+- Gender
+- Job Satisfaction
+- Overtime
+- Business Travel
+- Marital Status
+
+### 3. Advanced Analysis
+
+Applied advanced SQL techniques to identify deeper patterns and high-risk employee segments.
+
+Key techniques included:
+
+- Common Table Expressions (CTEs)
+- Window Functions
+- Ranking
+- Multi-factor analysis
+- Department-wise comparisons
+- Job-role ranking
+- Conditional aggregation
 
 ---
 
 ## 💡 Key Findings
 
-### Overall Attrition
+The SQL analysis identified several important attrition patterns:
 
-The organization had **237 employees who left out of 1,470 employees**, resulting in an overall attrition rate of **16.12%**.
-
-### Department-Level Risk
-
-The **Sales department** showed the highest attrition rate among the major departments, making it an important area for HR attention.
-
-### Age-Based Risk
-
-Employees in the **18–25 age group** had the highest attrition rate, indicating that younger employees may require stronger retention and career-development strategies.
-
-### Job Role Risk
-
-Some job roles showed significantly higher attrition rates.
-
-The **Sales Representative** role had one of the highest attrition rates, making it a key role for further investigation.
-
-### Overtime
-
-Employees working overtime showed a stronger association with employee attrition, indicating that workload and work-life balance may be important factors in employee retention.
-
-### Job Satisfaction
-
-The analysis also examined the relationship between job satisfaction and attrition to identify employee groups that may require additional HR attention.
-
-### Employee Characteristics
-
-Attrition patterns were further analyzed across factors such as:
-
-- Gender
-- Marital Status
-- Business Travel
-- Monthly Income
-- Age
-- Years at Company
+- Overall employee attrition rate is **16.12%**
+- **Sales** has the highest departmental attrition rate at **21%**
+- **Sales Representatives** have the highest job-role attrition rate at **40%**
+- Employees aged **18–25** have the highest age-group attrition rate at **36%**
+- **Human Resources** has an attrition rate of **19%**
+- Lower job satisfaction is associated with higher attrition
+- Male employees show a moderately higher attrition rate than female employees
 
 ---
 
-## 📈 Business Insights
+## 🎯 Business Insights
 
-The analysis indicates that employee attrition is not driven by a single factor.
+The analysis indicates that employee attrition is concentrated in specific departments, job roles, and employee segments rather than being evenly distributed across the organization.
 
-Higher attrition was particularly visible among certain:
+The highest-risk areas include:
 
-- Departments
-- Job roles
-- Younger employees
-- Overtime groups
-- Employee satisfaction segments
+- Sales-related roles
+- Early-career employees
+- Employees with lower job satisfaction
+- Selected high-risk job roles
 
-These patterns can help HR teams prioritize retention efforts instead of applying the same strategy to all employees.
+These findings can help HR teams prioritize targeted employee retention strategies instead of applying the same approach across the entire workforce.
 
 ---
 
-## 🔄 Analysis Workflow
+## 🚀 Business Recommendations
+
+Based on the SQL analysis:
+
+1. Strengthen retention strategies in the Sales department.
+2. Focus on early-career employees through mentoring and career development programs.
+3. Review workload, compensation, and growth opportunities for high-risk job roles.
+4. Improve employee engagement and job satisfaction.
+5. Regularly monitor attrition trends across departments, job roles, age groups, and other workforce characteristics.
+
+---
+
+## 📂 Project File
+
+The complete SQL analysis is available in:
+
+`HR_Employee_Attrition_SQL_Analysis.sql`
+
+The SQL file contains the queries used to perform the employee attrition analysis in MySQL.
+
+---
+
+## 🔗 Analysis Workflow
 
 ```text
-HR Employee Attrition Dataset
-            ↓
-     Python Data Cleaning
-            ↓
-       MySQL Analysis
-            ↓
-   Business Insights
-            ↓
-      Power BI Dashboard
-            ↓
- Recommendations for HR
+HR Dataset
+    ↓
+Data Cleaning using Python
+    ↓
+Cleaned HR Data
+    ↓
+MySQL
+    ↓
+Employee Attrition Analysis
+    ↓
+Business Insights
+    ↓
+Power BI Dashboard
